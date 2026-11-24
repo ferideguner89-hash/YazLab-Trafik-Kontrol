@@ -1,0 +1,19 @@
+
+# Python gecici dosyalari
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# VS Code yerel ayarlari
+.vscode/
+
+# SUMO otomatik olusturulan klasorler
+20??-??-??-??-??-??/
+
+# Simulasyon sonuc dosyalari
+simulation/tripinfo.xml
+simulation/results/
+
+# Ana klasordeki eski SUMO konfigurasyon kopyasi
+/antalya.sumocfg

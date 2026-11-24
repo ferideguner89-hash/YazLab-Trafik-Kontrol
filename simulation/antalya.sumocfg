@@ -1,0 +1,18 @@
+
+<configuration>
+    <input>
+        <net-file value="network/antalya.net.xml"/>
+        <route-files value="routes/normal.rou.xml"/>
+    </input>
+
+   
+<time>
+    <begin value="0"/>
+    <end value="1200"/>
+</time>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+</configuration>
