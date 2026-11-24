@@ -1,0 +1,17 @@
+
+<configuration>
+    <input>
+        <net-file value="network/antalya.net.xml"/>
+        <route-files value="routes/normal.rou.xml,routes/coklu_deneme.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+    </time>
+
+    <output>
+        <tripinfo-output value="results/normal_karma_tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+</configuration>
